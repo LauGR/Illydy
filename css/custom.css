@@ -1,74 +1,101 @@
 * {
-  margin: 0;
-  @import "https://fonts.google.com/specimen/Poppins"; }
+  @import "https://fonts.google.com/specimen/Poppins";
+  margin: 0; }
 
-/* header*/
+#top {
+  padding-left: 210px;
+  padding-top: 10px; }
+
+/* header */
 header {
   background: url(../images/header.jpg) center;
-  height: 900px;
-  text-align: center; }
+  height: 900px; }
 
-.logo {
-  width: 155px;
-  height: 75px;
-  padding-left: 100px;
-  padding-top: 5px; }
-
-ul li {
+nav {
   display: flex;
   justify-content: space-between; }
+  nav ul li {
+    display: inline-block; }
+    nav ul li a {
+      color: #fff; }
 
-/*photo*/
 h1 {
-  color: #fff;
-  font-size: 50px;
-  padding-top: 100px;
-  padding-left: 20px;
-  margin-bottom: 70px; }
-  h1 p {
-    width: 150px;
-    color: #fff; }
+  text-align: center;
+  margin-top: 110px;
+  font-family: 'Poppins';
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff; }
+  h1 span {
+    color: #ffde00; }
 
-span {
-  color: #f1d204; }
+.pg1 {
+  color: #fff; }
 
 .link1, .link2 {
-  margin-top: 70px;
-  text-align: center;
-  display: inline-block;
-  margin-left: 35px;
-  width: 238px;
-  height: 40px;
-  padding-top: 24px; }
-
-a {
   color: #fff;
-  text-decoration: none; }
+  width: 150px;
+  height: 30px; }
 
 .link1 {
-  border: 3px solid #fff;
-  background-color: #888e93; }
+  border: 2px solid #fff; }
 
 .link2 {
-  border: 1px solid #f1d204;
-  background-color: #f1d204; }
+  border: 2px solid #f1d204; }
 
-/* article 1 */
-#about h1 {
-  color: #545454; }
-#about p {
-  color: #969ea0;
+/* About*/
+h2 {
+  color: #545454;
+  text-align: center; }
+  h2 p {
+    color: #545454; }
+
+#about, #project, #service {
+  color: #545454;
+  text-align: center; }
+
+#about {
   width: 150px; }
 
-#project {
-  background: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png); }
+#design {
+  color: #f18b6d; }
 
-/* article 2*/
-#second {
-  background: #222f36; }
+#dev {
+  color: #f2d61e; }
+
+#seo {
+  color: #8f79a7; }
+
+/* Latest News */
+#News {
+  color: #222f36; }
+
+h4 {
+  color: #fff; }
+
+#Latest {
+  color: #7f878a; }
+
+#See {
+  color: #f1d204; }
+
+#block {
+  background: #fff; }
+
+#read {
+  color: #f1d204; }
 
 /* footer */
 footer {
   background: #292825; }
+  footer h6 {
+    color: #fff; }
+  footer a {
+    color: #869198; }
+
+#end {
+  background: #242320; }
+  #end #veryend {
+    color: #656a6a; }
 
 /*# sourceMappingURL=custom.css.map */
