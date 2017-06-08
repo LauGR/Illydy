@@ -7,13 +7,16 @@ header {
     background: url(../images/header.jpg);
     height: 900px;
     text-align: center;
-div {
-    .logo{
+}
+
+ .logo{
     width:155px;
     height: 75px;
-    margin-left:-50px;
-}
-}
+    padding-left:360px;
+    padding-top:35px;
+    
+    }
+    
 nav { 
     ul{
       display: flex;
@@ -29,8 +32,10 @@ nav {
         width: 238px;
         height: 40px;    
         padding-top : 24px;}
- a {color:#fff;
- text-decoration: none;}   
+            a {color:#fff;
+ text-decoration: none;}
+
+  
 
 .link1 {border: 3px solid #fff;
         background-color: #888e93;
@@ -47,3 +52,5 @@ h1 {color: #fff;
     
 
 span {color:yellow;}
+
+/* article 1 */
