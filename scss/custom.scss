@@ -1,10 +1,9 @@
 * {
-    margin:0;
-    
+    @import "https://fonts.google.com/specimen/Poppins";text-align: center;
 }
 /* header*/
 header {
-    background: url(../images/header.jpg);
+    background: url(../images/header.jpg) center;
     height: 900px;
     text-align: center;
 }
@@ -12,20 +11,33 @@ header {
  .logo{
     width:155px;
     height: 75px;
-    padding-left:360px;
-    padding-top:35px;
+    padding-left:100px;
+    padding-top:5px;
     
     }
     
-nav { 
     ul{
+        li{
       display: flex;
-      flex-direction: row;
-      
+      justify-content: space-between;
+      }
     }
-}
-/*h1*/
+    
+
+/*photo*/
+h1 {color: #fff;
+    font-size:50px;
+    padding-top:100px;
+    padding-left:20px;
+    margin-bottom: 70px;
+    
+    p{ width: 150px;
+       color:#fff;}
+ }
+    
+span {color:#f1d204;}
 .link1,.link2 {
+    margin-top: 70px;
         text-align: center;
         display: inline-block;
         margin-left:35px;  
@@ -45,12 +57,23 @@ nav {
         background-color: #f1d204;
        }
 
-h1 {color: #fff;
-    font-size:50px;
-    padding-top:100px;}
-    
-    
 
-span {color:yellow;}
 
 /* article 1 */
+#about {
+         h1 {color:#545454;}
+         p {color:#969ea0;
+            width: 150px;}
+        }
+#project {
+    background: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png)
+}
+/* article 2*/
+
+#second {
+    background: #222f36;
+}
+
+/* footer */
+
+footer {background: #292825;}
