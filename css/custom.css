@@ -1,138 +1,243 @@
 * {
   font-family: 'Poppins';
-  margin: 0; }
+  margin: 0;
+}
 
 #top {
   padding-left: 210px;
-  padding-top: 10px; }
+  padding-top: 10px;
+}
 
-/* header */
+
+/*========== header=========== */
+
 header {
   background: url(../images/header.jpg) center;
-  height: 900px; }
+  height: 900px;
+}
+
 nav {
   text-align: center;
 }
+
 nav ul {
-  
   font-weight: bold;
   margin-left: 340px;
   margin-top: -50px;
 }
+
 nav ul li {
-  
   list-style: none;
   display: inline-flex;
   justify-content: space-between;
   margin-left: 45px;
-  
-   }
-  nav ul li a {
-    text-decoration: none;
-    color: #fff; }
+}
 
-h1 {  
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
   text-align: center;
   margin-top: 110px;
   margin-bottom: 60px;
+  padding-top: 150px;
   font-family: 'Poppins';
   font-size: 60px;
   font-weight: bold;
   color: #fff;
-   }
+}
+
 .point {
-    margin-left: -15px;
-    color: #ffde00; }
+  margin-left: -15px;
+  color: #ffde00;
+}
 
 .pg1 {
-  margin-left: 500px;
-  width: 700px;  
-  margin-bottom: 67px;
-  color: #fff; }
+  margin-top: -5px;
+  margin-left: 450px;
+  width: 700px;
+  margin-bottom: 60px;
+  color: #fff;
+}
 
 .link1,
 .link2 {
-  
   display: inline-block;
-  margin-left: 40px;  
+  margin-left: 30px;
   width: 250px;
   height: 40px;
   text-align: center;
-  padding-top: 20px; }
+  padding-top: 20px;
+}
 
 .link1 a,
-.link2 a{
-  color:#fff;
+.link2 a {
+  color: #fff;
   text-decoration: none;
 }
 
 .link1 {
-  margin-left: 667px;
+  margin-left: 510px;
   border: 2px solid #fff;
-  background-color: #8a9095; }
+}
 
 .link2 {
   border: 2px solid #f1d204;
-  background-color: #f1d204; }
+  background-color: #f1d204;
+}
 
-/* About*/
+
+/*============= Middle =======*/
+
+
+/*============= About=========*/
+
 h2 {
   color: #545454;
-  text-align: center; }
-  h2 p {
-    color: #545454; }
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+h2 p {
+  color: #545454;
+}
 
 #about,
-#project,
-#service {
+#Pro,
+#ser {
   color: #545454;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold;
+}
 
+#about, #ject,#vice {
+  text-align: center;
+  color: #9aa1a3;
+  font-size: 12px;
+}
 #about {
-  width: 150px; }
+  width: 670px;
+  
+  margin-top: 40px;
+  margin-left: 420px;
+  margin-bottom: 300px;
+  
+}
 
-#project {
-  background: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png); }
 
+/* =========Projects========= */
+
+#Pro {
+  background: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
+  height: 40px;
+  padding-top: 40px;
+  margin-top: -10px;
+}
+
+#ject {
+  background: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
+  text-align: center;
+  height: 70px;
+  margin-left: 30px;
+  
+}
+
+#images {
+  display: inline-flex;
+  width: 460px;
+  height: 460px;
+}
+
+
+/*==========Services========*/
+
+#idem{
+  width: 200px;
+  font-size: 12px;
+  color:#9aa1a3;
+  margin-top:20px;
+  margin-left: 20px;
+}
+h3 {
+  width:80px;
+  }
+#idem,h3 {
+  display: inline-flex;
+  
+}
 #design {
-  color: #f18b6d; }
+  color: #f18b6d;
+}
 
 #dev {
-  color: #f2d61e; }
+  color: #f2d61e;
+}
 
 #seo {
-  color: #8f79a7; }
+  color: #8f79a7;
+}
+
 
 /* Latest News */
-#News {
-  color: #222f36; }
+article {
+  background-color: #222f36;
+  text-align: center;
+
+}
 
 h4 {
-  color: #fff; }
+  color: #fff;
+}
+
+#mer,#vallees,#moutain {
+  width: 150px ;
+ 
+}
+
 
 #Latest {
-  color: #7f878a; }
+  color: #7f878a;
+}
 
 #See {
-  color: #f1d204; }
+  color: #fff;
+  border: 1px solid #f1d204;
+}
 
 #block {
-  background: #fff; }
+  background: #fff;
+}
 
 #read {
-  color: #f1d204; }
+  color: #f1d204;
+}
+
 
 /* footer */
+
 footer {
-  background: #292825; }
-  footer h6 {
-    color: #fff; }
-  footer a {
-    color: #869198; }
+  background: #292825;
+}
+
+footer h6 {
+  color: #fff;
+}
+
+footer a {
+  color: #869198;
+}
 
 #end {
-  background: #242320; }
-  #end #veryend {
-    color: #656a6a; }
+  background: #242320;
+}
+
+#end #veryend {
+  color: #656a6a;
+}
+
 
 /*# sourceMappingURL=custom.css.map */
