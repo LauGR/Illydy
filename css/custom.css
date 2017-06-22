@@ -98,7 +98,7 @@ h2 {
   color: #545454;
   width: 660px;
   margin-top: 40px;
-  margin-left: 480px;
+  margin-left: 420px;
   margin-bottom: 300px; }
 
 /* =========Projects========= */
@@ -194,17 +194,18 @@ figure {
 
 /*====================== footer==================== */
 footer {
-  background: #292825; }
-  footer nav ul li {
-    list-style: none; }
-    footer nav ul li a {
-      color: #fff;
-      text-decoration: none; }
+  background: #292825;
+  display: inline-flex; }
+  footer nav {
+    height: 100px; }
+    footer nav ul li {
+      list-style: none; }
+      footer nav ul li a {
+        color: #869198;
+        text-decoration: none; }
   footer h6 {
     font-weight: bold;
     color: #fff; }
-  footer a {
-    color: #869198; }
 
 .end {
   padding-top: 40px;

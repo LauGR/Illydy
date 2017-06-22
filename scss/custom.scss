@@ -128,7 +128,7 @@ h2 {
     color:$gris;
     width: 660px;
     margin-top: 40px;
-    margin-left: 480px;
+    margin-left: 420px;
     margin-bottom: 300px;
 }
 
@@ -255,27 +255,28 @@ figure {
 
 footer {
     background: #292825;
-    nav {
+    display: inline-flex;
    
-    ul {
+    nav {
+           
+            height: 100px;
+        ul {                                  
         
-        li {
-            list-style: none;
-            a {
-                color: #fff;
+            li {
+                list-style: none;
+                a {
+                color: #869198;
                 text-decoration: none;
+                 }
             }
         }
-    }
-}
+   }
 
     h6 {
-        font-weight: bold;
+        font-weight: $gras;
         color:#fff;
     }
-    a {
-        color: #869198;
-    }
+   
 }
 
 .end {
