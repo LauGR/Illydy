@@ -214,7 +214,8 @@ footer {
       footer nav ul li a {
         color: #869198;
         text-decoration: none;
-        padding-top: -100px; }
+        padding-top: -100px;
+        width: 90px; }
 
 .fa-angle-right {
   color: #869198;
