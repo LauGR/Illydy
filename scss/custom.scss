@@ -159,38 +159,45 @@ h2 {
 /*==========Services========*/
 
 .idem {
-    width: 200px;
+    width: 350px;
     font-size: 12px;
     color: $gclair;
-    margin-top: 20px;
+    margin-top: -20px;
     margin-left: 20px;
+    display: inline-block;
+    
 }
 
+
 h3 {
-    width: 80px;
+    width: 230px;
+    display: inline-flex;
+    margin-top:-50px;
 }
 
 .ser{
     margin-bottom: 5px;
+    background-size: 468px;
 }
 
 .vice {
     margin-bottom: 80px;
 }
 
-.three {
-    display: inline-flex;
+.design {
+    margin-left:350px;
 }
 
-.design, {
+.design,.fa-pencil {
     color: #f18b6d;
+    
 }
 
-.dev, {
+.dev,.fa-code {
     color: #f2d61e;
 }
 
-.seo, {
+.seo,.fa-search {
     color: #8f79a7;
 }
 
@@ -204,6 +211,8 @@ article {
 
 h4 {
     color: #fff;
+    font-size: 30px;
+    padding-top:76px;
 }
 
 h5 {
@@ -226,14 +235,23 @@ figure {
 
 .Latest {
     color: #7f878a;
+    margin-bottom : 60px;
+    
 }
+
 
 .See {
     border: 1px solid #f1d204;
     background: #f1d204;
     padding-top: 15px;
+    margin-left: 700px;
+    margin-bottom: 81px;
     width: 180px;
     height: 30px;
+    text-align: center;
+    p {
+        padding-left:10px;
+    }
     a {
         color: #fff;
         text-decoration: none;
