@@ -51,6 +51,10 @@ h1 {
     color: #fff;
 }
 
+.subtitle {
+    margin-left: 190px;
+}
+
 .point {
     color: #ffde00;
     margin-left: -15px;
@@ -136,13 +140,13 @@ h2 {
     height: 40px;
     padding-top: 40px;
     margin-top: -10px;
+    margin-bottom: -10px;
 }
 
 .ject {
     background: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
     text-align: center;
     height: 70px;
-    margin-left: 30px;
 }
 
 .images {
@@ -166,22 +170,27 @@ h3 {
     width: 80px;
 }
 
-.ser {
+.ser{
+    margin-bottom: 5px;
+}
+
+.vice {
+    margin-bottom: 80px;
 }
 
 .three {
     display: inline-flex;
 }
 
-.design {
+.design, {
     color: #f18b6d;
 }
 
-.dev {
+.dev, {
     color: #f2d61e;
 }
 
-.seo {
+.seo, {
     color: #8f79a7;
 }
 
@@ -251,7 +260,7 @@ footer {
     ul {
         
         li {
-            
+            list-style: none;
             a {
                 color: #fff;
                 text-decoration: none;
@@ -261,7 +270,8 @@ footer {
 }
 
     h6 {
-        color: #fff;
+        font-weight: bold;
+        color:#fff;
     }
     a {
         color: #869198;
@@ -269,8 +279,15 @@ footer {
 }
 
 .end {
+    padding-top: 40px;
+    font-size: 13px;
     background: #242320;
+    height: 50px;
+    text-align: center;
     .veryend {
-        color: #656a6a;
+        color: #494c4c;
+    }
+    .pend {
+        color:#fff;
     }
 }

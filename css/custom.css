@@ -35,6 +35,9 @@ h1 {
   font-weight: bold;
   color: #fff; }
 
+.subtitle {
+  margin-left: 190px; }
+
 .point {
   color: #ffde00;
   margin-left: -15px; }
@@ -103,13 +106,13 @@ h2 {
   background: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
   height: 40px;
   padding-top: 40px;
-  margin-top: -10px; }
+  margin-top: -10px;
+  margin-bottom: -10px; }
 
 .ject {
   background: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
   text-align: center;
-  height: 70px;
-  margin-left: 30px; }
+  height: 70px; }
 
 .images {
   display: inline-flex;
@@ -126,6 +129,12 @@ h2 {
 
 h3 {
   width: 80px; }
+
+.ser {
+  margin-bottom: 5px; }
+
+.vice {
+  margin-bottom: 80px; }
 
 .three {
   display: inline-flex; }
@@ -186,17 +195,26 @@ figure {
 /*====================== footer==================== */
 footer {
   background: #292825; }
-  footer nav ul li a {
-    color: #fff;
-    text-decoration: none; }
+  footer nav ul li {
+    list-style: none; }
+    footer nav ul li a {
+      color: #fff;
+      text-decoration: none; }
   footer h6 {
+    font-weight: bold;
     color: #fff; }
   footer a {
     color: #869198; }
 
 .end {
-  background: #242320; }
+  padding-top: 40px;
+  font-size: 13px;
+  background: #242320;
+  height: 50px;
+  text-align: center; }
   .end .veryend {
-    color: #656a6a; }
+    color: #494c4c; }
+  .end .pend {
+    color: #fff; }
 
 /*# sourceMappingURL=custom.css.map */
