@@ -255,29 +255,51 @@ figure {
 
 footer {
     background: #292825;
-    display: inline-flex;
-   
+
+    h6 {
+        display: inline-flex;     
+        margin-left:100px;
+        margin-top: 34px; 
+        font-size: 24px;
+        font-weight: $gras;        
+        color:#fff;
+        width: 100px;
+    }
+
     nav {
+           display: inline-flex;
+            height: 292px;
+            margin-top: 42px;
            
-            height: 100px;
         ul {                                  
-        
+           
+          
             li {
-                list-style: none;
+                    list-style: none;
+                     margin-left: -130px;
+                     margin-top:-8px;
+                
                 a {
-                color: #869198;
-                text-decoration: none;
+                     color: #869198;
+                     text-decoration: none;
+                     padding-top: -100px;
                  }
             }
         }
    }
 
-    h6 {
-        font-weight: $gras;
-        color:#fff;
-    }
+    
    
 }
+
+.fa-angle-right {
+    color:#869198;
+    margin-left:-150px;
+}
+.products {
+    margin-left: 446px;
+    margin-bottom: 54px;
+    }
 
 .end {
     padding-top: 40px;
